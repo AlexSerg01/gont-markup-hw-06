@@ -198,7 +198,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   display: flex;
-  max-inline-size: 496px;
+  max-inline-size: 16px;
   margin: 0 auto;
   padding-block-end: 48px;
 }
