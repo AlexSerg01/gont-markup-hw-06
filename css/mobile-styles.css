@@ -1,0 +1,198 @@
+/* Colors */
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --STALE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-MODDAL: #2e2f42 * 0.4;
+  --GREY: #2e2f42 * 0.7;
+  --WHITE: #ffffff;
+  --GAIRY: #fcfcfc;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--WHITE);
+  color: var(--STALE);
+  font-size: 16px;
+  font-style: 500;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--WHITE);
+  color: var(--STALE);
+  font-size: 16px;
+  font-style: 500;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .head-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--WHITE);
+    border-block-end: 1px solid var(--CORNFLOWER);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    inset-block-start: 0;
+    z-index: 999;
+    padding: 0 16px;
+  }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS);
+    text-decoration: none;
+    margin-inline-end: 76px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .logo-span {
+    font-family: "Raleway", sans-serif;
+    color: var(--NAVY-BLUE);
+  }
+
+  .menu-button {
+    border: none;
+    background-color: transparent;
+    line-height: 0;
+    padding: 0;
+  }
+
+  .modal-menu {
+    position: fixed;
+    inset: 0;
+    transform: scale(1);
+    background: var(--GAIRY);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0 16px;
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .close-menu-button {
+    position: absolute;
+    inset-block-start: 24px;
+    inset-inline-end: 24px;
+    inline-size: 24px;
+    block-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--CORNFLOWER);
+    fill: var(--NAVY-BLUE);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile-nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    gap: 40px;
+  }
+
+  .nav-link {
+    color: var(--NAVY-BLUE);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--OCEAN);
+  }
+
+  .social-header-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .header-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 40px;
+    block-size: 40px;
+    border-radius: 50%;
+  }
+
+  .team-social-link {
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .team-social-link:hover,
+  .team-social-link:focus {
+    background-color: var(--OCEAN);
+  }
+}

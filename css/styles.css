@@ -67,40 +67,6 @@ body {
 
 /* HEADER SECTION */
 
-@media (min-width: 320px) {
-  .container {
-    inline-size: 320px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .header {
-    background-color: var(--WHITE);
-    border-block-end: 1px solid var(--CORNFLOWER);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    position: sticky;
-    inset-block-start: 0;
-    z-index: 999;
-  }
-
-  .head-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 320px;
-    height: 56px;
-  }
-
-  .logo {
-    padding: 16px 0;
-  }
-
-  .menu-svg {
-    margin: 16px 16px;
-  }
-}
 .header {
   background-color: var(--WHITE);
   border-block-end: 1px solid var(--CORNFLOWER);
