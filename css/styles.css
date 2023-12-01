@@ -106,9 +106,6 @@ body {
   color: var(--NAVY-BLUE);
 }
 
-.menu-div {
-}
-
 .nav-menu {
   list-style-type: none;
   display: flex;
