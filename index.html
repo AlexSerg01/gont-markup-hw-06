@@ -31,7 +31,7 @@
             </svg>
           </button>
           <ul class="nav-menu">
-            <li><a href="" class="nav-link curent">Studio</a></li>
+            <li><a href="" class="nav-link current">Studio</a></li>
             <li><a href="" class="nav-link">Portfolio</a></li>
             <li><a href="" class="nav-link">Contacts</a></li>
           </ul>
@@ -310,6 +310,7 @@
                   alt="Banking app"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -329,6 +330,7 @@
                   alt="Cashless Payment"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -348,6 +350,7 @@
                   alt="Meditation App"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -367,6 +370,7 @@
                   alt="Taxi Service"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -386,6 +390,7 @@
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -405,6 +410,7 @@
                   alt="Online Courses"
                   width="360"
                   height="300"
+                  class="portfolio-image"
                 />
                 <p class="portfolio-hover-img">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -487,8 +493,8 @@
       </div>
     </footer>
     <div class="backdrop">
-      <div class="modal-window">
-        <button type="button" class="close-form-button">
+      <div id="modal" class="modal-window">
+        <button type="button" id="close-modal" class="close-form-button">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -563,17 +569,19 @@
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
+            </label>
+            <div class="checkbox-text">
               I accept the terms and conditions of the
               <a href="" class="link-privacy-policy">Privacy Policy</a>
-            </label>
+            </div>
           </div>
           <button type="submit" class="contact-form-send-buttom">Send</button>
         </form>
       </div>
     </div>
-    <div class="modal-menu visually-hidden">
+    <div class="modal-menu visually-hidden" id="modal-menu">
       <nav class="mobile-nav">
-        <button type="button" class="close-menu-button">
+        <button type="button" class="close-menu-button" id="close-modal">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -631,6 +639,6 @@
         </ul>
       </div>
     </div>
-    <script src=""></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
