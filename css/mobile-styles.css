@@ -963,12 +963,12 @@ body {
     color: var(--OCEAN);
   }
 
-  .curent {
+  .current {
     position: relative;
     color: var(--OCEAN);
   }
 
-  .curent::after {
+  .current::after {
     color: var(--OCEAN);
     display: block;
     width: 100%;
@@ -1705,12 +1705,12 @@ body {
     color: var(--OCEAN);
   }
 
-  .curent {
+  .current {
     position: relative;
     color: var(--OCEAN);
   }
 
-  .curent::after {
+  .current::after {
     color: var(--OCEAN);
     display: block;
     inline-size: 100%;
