@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/mobile-styles.css" />
-    <!-- <link rel="stylesheet" href="./css/styles.css" />ś -->
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,7 @@
           <a href="./index.html" class="logo">
             Web<span class="logo-span">Studio</span>
           </a>
-          <button type="button" class="menu-button">
+          <button type="button" class="menu-button" menu-modal-open>
             <svg class="menu-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
@@ -54,19 +54,20 @@
     </header>
     <!-- MAIN CONTENT -->
     <main class="main">
-      <!-- First section -->
+      <!-- ======================= -->
+      <!-- =====First section===== -->
+      <!-- ======================= -->
       <section class="first-section">
         <div class="container">
-          <h1 class="main-title">
-            Effective Solutions <br />
-            for Your Business
-          </h1>
-          <button type="button" class="order-button" id="data-modal-open">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="order-button" data-modal-open>
             Order Service
           </button>
         </div>
       </section>
-      <!-- Second section (Hero)-->
+      <!-- =============================== -->
+      <!-- =====Second section (Hero)===== -->
+      <!-- =============================== -->
       <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden">Hero</h2>
@@ -122,7 +123,9 @@
           </ul>
         </div>
       </section>
-      <!-- Three section (Our Team) -->
+      <!-- ============================== -->
+      <!-- ===Three section (Our Team)=== -->
+      <!-- ============================== -->
       <section class="three-section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -308,7 +311,9 @@
           </ul>
         </div>
       </section>
-      <!-- Four section (Portfolio) -->
+      <!-- ================================ -->
+      <!-- ====Four section (Portfolio)==== -->
+      <!-- ================================ -->
       <section class="portfolio-section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -318,27 +323,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/portfolio/1.jpg    1x,
-                      ./images/portfolio/1@2x.jpg 2x
+                      ./images/portfolio/desktop-img/1.jpg    1x,
+                      ./images/portfolio/desktop-img/1@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/1.jpg    1x,
-                      ./images/portfolio/1@2x.jpg 2x
+                      ./images/portfolio/tablet-img/1.jpg    1x,
+                      ./images/portfolio/tablet-img/1@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/1.jpg    1x,
-                      ./images/portfolio/1@2x.jpg 2x
+                      ./images/portfolio/mobile-img/1.jpg    1x,
+                      ./images/portfolio/mobile-img/1@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/1.jpg"
+                    src="./images/portfolio/desktop-img/1.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -358,30 +363,30 @@
             </li>
             <li class="portfolio-li portfolio-hover">
               <div class="img-text-container">
-                <<picture>
+                <picture>
                   <source
                     srcset="
-                      ./images/portfolio/2.jpg    1x,
-                      ./images/portfolio/2@2x.jpg 2x
+                      ./images/portfolio/desktop-img/2.jpg    1x,
+                      ./images/portfolio/desktop-img/2@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/2.jpg    1x,
-                      ./images/portfolio/2@2x.jpg 2x
+                      ./images/portfolio/tablet-img/2.jpg    1x,
+                      ./images/portfolio/tablet-img/2@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/2.jpg    1x,
-                      ./images/portfolio/2@2x.jpg 2x
+                      ./images/portfolio/mobile-img/2.jpg    1x,
+                      ./images/portfolio/mobile-img/2@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/2.jpg"
+                    src="./images/portfolio/desktop-img/2.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -404,27 +409,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/portfolio/3.jpg    1x,
-                      ./images/portfolio/3@2x.jpg 2x
+                      ./images/portfolio/desktop-img/3.jpg    1x,
+                      ./images/portfolio/desktop-img/3@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/3.jpg    1x,
-                      ./images/portfolio/3@2x.jpg 2x
+                      ./images/portfolio/tablet-img/3.jpg    1x,
+                      ./images/portfolio/tablet-img/3@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/3.jpg    1x,
-                      ./images/portfolio/3@2x.jpg 2x
+                      ./images/portfolio/mobile-img/3.jpg    1x,
+                      ./images/portfolio/mobile-img/3@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/3.jpg"
+                    src="./images/portfolio/desktop-img/3.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -447,27 +452,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/portfolio/4.jpg    1x,
-                      ./images/portfolio/4@2x.jpg 2x
+                      ./images/portfolio/desktop-img/4.jpg    1x,
+                      ./images/portfolio/desktop-img/4@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/4.jpg    1x,
-                      ./images/portfolio/4@2x.jpg 2x
+                      ./images/portfolio/tablet-img/4.jpg    1x,
+                      ./images/portfolio/tablet-img/4@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/4.jpg    1x,
-                      ./images/portfolio/4@2x.jpg 2x
+                      ./images/portfolio/mobile-img/4.jpg    1x,
+                      ./images/portfolio/mobile-img/4@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/4.jpg"
+                    src="./images/portfolio/desktop-img/4.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -490,27 +495,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/portfolio/5.jpg    1x,
-                      ./images/portfolio/5@2x.jpg 2x
+                      ./images/portfolio/desktop-img/5.jpg    1x,
+                      ./images/portfolio/desktop-img/5@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/5.jpg    1x,
-                      ./images/portfolio/5@2x.jpg 2x
+                      ./images/portfolio/tablet-img/5.jpg    1x,
+                      ./images/portfolio/tablet-img/5@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/5.jpg    1x,
-                      ./images/portfolio/5@2x.jpg 2x
+                      ./images/portfolio/mobile-img/5.jpg    1x,
+                      ./images/portfolio/mobile-img/5@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/5.jpg"
+                    src="./images/portfolio/desktop-img/5.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -533,27 +538,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/portfolio/6.jpg    1x,
-                      ./images/portfolio/6@2x.jpg 2x
+                      ./images/portfolio/desktop-img/6.jpg    1x,
+                      ./images/portfolio/desktop-img/6@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/6.jpg    1x,
-                      ./images/portfolio/6@2x.jpg 2x
+                      ./images/portfolio/tablet-img/6.jpg    1x,
+                      ./images/portfolio/tablet-img/6@2x.jpg 2x
                     "
                     media="(min-width: 768px)"
                   />
                   <source
                     srcset="
-                      ./images/portfolio/6.jpg    1x,
-                      ./images/portfolio/6@2x.jpg 2x
+                      ./images/portfolio/mobile-img/6.jpg    1x,
+                      ./images/portfolio/mobile-img/6@2x.jpg 2x
                     "
                     media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/portfolio/6.jpg"
+                    src="./images/portfolio/desktop-img/6.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -640,9 +645,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div id="modal" class="modal-window">
-        <button type="button" id="close-modal" class="close-form-button">
+        <button type="button" class="close-form-button" data-modal-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -718,18 +723,16 @@
                 </svg>
               </span>
             </label>
-            <div class="checkbox-text">
-              I accept the terms and conditions of the
-              <a href="" class="link-privacy-policy">Privacy Policy</a>
-            </div>
+            I accept the terms and conditions of the
+            <a href="" class="link-privacy-policy">Privacy Policy</a>
           </div>
           <button type="submit" class="contact-form-send-buttom">Send</button>
         </form>
       </div>
     </div>
-    <div class="modal-menu" id="modal-menu">
+    <div class="modal-menu" menu-modal>
       <nav class="mobile-nav">
-        <button type="button" class="close-menu-button" id="close-modal">
+        <button type="button" class="close-menu-button" menu-modal-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
